@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -193,25 +193,30 @@
 				TargetAttributes = {
 					045458CA1EE88D6B00037E5E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = AW7W5ZUQM7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					045458DE1EE88D6C00037E5E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = AW7W5ZUQM7;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 045458CA1EE88D6B00037E5E;
 					};
 					045458E91EE88D6C00037E5E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = AW7W5ZUQM7;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 045458CA1EE88D6B00037E5E;
 					};
 				};
 			};
 			buildConfigurationList = 045458C61EE88D6B00037E5E /* Build configuration list for PBXProject "Winterfell Facts" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -419,10 +424,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AW7W5ZUQM7;
 				INFOPLIST_FILE = "Winterfell Facts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.40bcsoftware.Winterfell-Facts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,10 +439,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AW7W5ZUQM7;
 				INFOPLIST_FILE = "Winterfell Facts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.40bcsoftware.Winterfell-Facts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -516,6 +525,7 @@
 				045458F51EE88D6C00037E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		045458F61EE88D6C00037E5E /* Build configuration list for PBXNativeTarget "Winterfell FactsTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +534,7 @@
 				045458F81EE88D6C00037E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		045458F91EE88D6C00037E5E /* Build configuration list for PBXNativeTarget "Winterfell FactsUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +543,7 @@
 				045458FB1EE88D6C00037E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
